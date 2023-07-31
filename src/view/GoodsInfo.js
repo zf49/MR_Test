@@ -44,7 +44,7 @@ export default function GoodsInfo() {
           </Typography>
 
           <Typography variant="body2" align="left" sx={{color:'#888888'}}>
-            {'SIZE'}
+            SIZE<span style={{color: 'red'}}>*</span>
           </Typography>
 
           <AddToCart  ProductSiz={goodsDetail.sizeOptions}/>
