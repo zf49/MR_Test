@@ -10,7 +10,7 @@ export default function TopBar() {
       <AppBar position="static" sx={{ bgcolor: '#F6F6F7', boxShadow: 'none', border: 0 }}>
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}></Box>
-          <Button sx={{ color: '#222222', textTransform: 'none' }}>My Cart (4)</Button>
+          <Button sx={{ color: '#888888', textTransform: 'none' }}>My Cart (4)</Button>
         </Toolbar>
       </AppBar>
     </div>
