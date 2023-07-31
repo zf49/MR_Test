@@ -11,7 +11,7 @@ export default function AddToCart(props) {
 
   const dispatch = useDispatch();
 
-  const [sizeNae, setSizeNae] = useState()
+  const [sizeNae, setSizeNae] = useState('')
 
 
   return (
