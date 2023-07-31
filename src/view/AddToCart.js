@@ -50,7 +50,16 @@ export default function AddToCart(props) {
       </div>
       <div>
         <Button
-          sx={{ color: "#222222", border: "2px solid black", borderRadius: "0", marginLeft: '0.5em' }}
+          sx={{
+            color: "#222222",
+            border: "2px solid #222222",
+            borderRadius: "0",
+            marginLeft: '0.5em',
+            '&:hover': {
+              color: 'white',
+              backgroundColor: '#222222',
+            },
+          }}
           onClick={() => {
             if (!selectedSize) {
               window.alert('Must select a size before adding to cart.');
